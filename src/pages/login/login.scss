@@ -1,0 +1,25 @@
+page-login {
+    ion-content {
+        background: url(../assets/imgs/darksea.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        .item-md, .item-ios {
+          background: none;
+        }
+    }
+    .container{
+        background-color: darkseagreen;
+
+    }
+    .email{
+        background-color: darkseagreen;
+ 
+    }
+    .password{
+        background-color: darkseagreen;
+      
+        
+    }
+}
+

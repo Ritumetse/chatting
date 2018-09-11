@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar color ="Pogi">
+    <ion-title>signup</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+  <ion-content padding>
+        <div class="Container">
+        <ion-list>
+          <ion-item class ="email" >
+              <ion-icon name="at" item-start></ion-icon>
+              <ion-label stacked style="color:darkslategrey" >Email</ion-label>
+            <ion-input type="email"  [(ngModel)]="email"></ion-input>
+          </ion-item>
+
+       
+          <ion-item class ="password" >
+              <ion-icon name="lock" item-start></ion-icon>
+              <ion-label  stacked style="color:darkslategrey" >Password</ion-label>
+            <ion-input type="password"  [(ngModel)]="password"></ion-input>
+          </ion-item>
+         
+          <button ion-button block round outline color="light" (click)="signUp()" style="color: darkslategrey" >Sign Up</button>
+         
+        </ion-list>
+        </div>
+      
+      
+    
+  </ion-content>
+  
